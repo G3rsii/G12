@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="about" class="about">
+      <div class="about-me">
+        <h3>Hello peeps,</h3>
+        <h2 class="float-text">
+          I'm Gersi<span class="multi-text-name"></span>
+        </h2>
+        <p>
+          Hi! I'm a Full Stack Developer with expertise in the
+          <span>M.E.R.N</span> stack, i'm well-versed in the four key
+          technologies.---- Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Explicabo impedit vel maiores excepturi provident ratione ut
+          illum hic vero? Facilis amet corrupti incidunt, tempora quis
+          consectetur, iste fugit quidem libero optio pariatur qui illum
+          expedita! Illo natus quasi aut ex.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://www.instagram.com/rigers.saliasi?igsh=MTY1dzVoaXB5ZW50MQ=="
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/rigers-saliasi/"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://twitter.com/RGersisalias"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://github.com/G3rsii"><i class="bx bxl-github"></i></a>
+        </div>
+      </div>
+      <div class="get-in-touch">
+        <img class="float-image" src="Images/me1.png" />
+        <h3>If you want <span class="multi-text"></span></h3>
+        <a href="#" class="btn">My Resume</a>
+        <a href="#projects" class="btn">My Projects</a>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h3 class="project-header">My <span>Projects</span></h3>
+      <div class="cards">
+        <div id="card" class="card-left">
+          <a href="#"
+            ><img class="float-image" src="Images/portof1.jpeg" alt=""
+          /></a>
+          <h3 class="float-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            accusamus eveniet officia. Optio sed obcaecati similique. Aspernatur
+            ducimus eius ea dolore, vero tempora quis iusto.
+          </h3>
+        </div>
+
+        <div id="card" class="card-right">
+          <a href="#"
+            ><img class="float-image" src="Images/portof7.jpg" alt=""
+          /></a>
+          <h3 class="float-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            velit mollitia sapiente. Minima, obcaecati! Maxime doloremque sit
+            deserunt similique molestiae officiis facilis voluptates vel porro?.
+          </h3>
+        </div>
+        <div id="card" class="card-left">
+          <a href="#"
+            ><img class="float-image" src="Images/portof5.jpg" alt=""
+          /></a>
+          <h3 class="float-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            velit mollitia sapiente. Minima, obcaecati! Maxime doloremque sit
+            deserunt similique molestiae officiis facilis voluptates vel porro?.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <h2>Contact <span>Me! </span></h2>
+
+      <div class="contact-box">
+        <input type="text" id="name" class="field" placeholder="Your Name" />
+        <input type="email" id="email" class="field" placeholder="Your Email" />
+        <input type="text" id="phone" class="field" placeholder="Your Phone" />
+        <textarea id="message" rows="4" placeholder="Message"></textarea>
+        <button id="contact-btn" class="btn" onclick="SendMail()">Send</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Rigers Saliasi | All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("nLZ2oVdORzBFLl-nJ");
+      })();
+    </script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
